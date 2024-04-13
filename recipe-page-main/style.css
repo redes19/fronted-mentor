@@ -77,12 +77,15 @@ img{
 }
 
 .instruction {
-    border: 1px solid;
     margin-bottom: 25px;
 }
 
 .instruction ol {
     color: hsl(14, 45%, 36%);
+    height: 11.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .nutrition{
